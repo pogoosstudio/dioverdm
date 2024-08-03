@@ -19,7 +19,7 @@ export const MenuNavegacion = ( { handleShowMenu }) => {
                         className={({isActive}) => `${clases.menu__link} ${isActive ? clases.active : ''}`}
                     >
                         <FontAwesomeIcon icon={faHouse} className={`${clases.menu__icon}`}/>
-                        <span className={`${clases.menu__overlay}`}>Home</span>
+                        <span className={`${clases.menu__overlay}`}>Inicio</span>
                     </NavLink>
                 </li>
                 <li className={`${clases.menu__option}`}>
