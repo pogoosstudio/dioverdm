@@ -27,22 +27,22 @@ export const ContactoPage = () => {
                 <section className={`${clases.contacto__info}`}>
                     <div className={`${clases.contacto__data}`}>
                         <FontAwesomeIcon icon={faLocationDot} className={`${clases.contacto__icon}`}/>
-                        <h2 className={`${clases.contacto__subtitle}`}>Curacaví</h2>
+                        <h2 className={`${clases.contacto__subtitle}`}>Barcelona</h2>
                     </div>
 
                     <div className={`${clases.contacto__data}`}>
                         <FontAwesomeIcon icon={faPhone} className={`${clases.contacto__icon}`}/>
-                        <h2 className={`${clases.contacto__subtitle}`}>+569 9818 0435</h2>
+                        <h2 className={`${clases.contacto__subtitle}`}>+58 4248433917</h2>
                     </div>
 
                     <div className={`${clases.contacto__data}`}>
                         <FontAwesomeIcon icon={faEnvelope} className={`${clases.contacto__icon}`}/>
-                        <h2 className={`${clases.contacto__subtitle}`}>nico.hernandezekko@gmail.com</h2>
+                        <h2 className={`${clases.contacto__subtitle}`}>contact@dioverdm.com</h2>
                     </div>
 
                     <div className={`${clases.contacto__data}`}>
                         <FontAwesomeIcon icon={faCircleCheck} className={`${clases.contacto__icon}`}/>
-                        <h2 className={`${clases.contacto__subtitle}`}>Desarrollador Front</h2>
+                        <h2 className={`${clases.contacto__subtitle}`}>Desarrollador</h2>
                     </div>
                 </section>
 
@@ -55,7 +55,7 @@ export const ContactoPage = () => {
                     </header>
 
                     <form 
-                        action="https://formsubmit.co/9e2e4db98958b184bdf300248c42d29e" 
+                        action="https://formsubmit.co/dioverrdm@gmail.com" 
                         method="POST"
                         className={`${clases.contacto__form}`}
                     >
@@ -103,7 +103,7 @@ export const ContactoPage = () => {
                         
                         <input type="submit" className={`${clases.form__button}`} value="Enviar Mensaje"/>
 
-                        <input type="hidden" name="_next" value="https://folionicolashernandez.netlify.app//"/>
+                        <input type="hidden" name="_next" value="https://www.dioverdm.com/"/>
                         <input type="hidden" name="_captcha" value={false}/>
                     </form>
                 </section>
