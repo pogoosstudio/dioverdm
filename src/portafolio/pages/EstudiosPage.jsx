@@ -30,13 +30,13 @@ export const EstudiosPage = () => {
                         <article className={`${clases.timelines__timeline}`}>
                             <header className={`${clases.timeline__header}`}>
                                 <h4 className={`${clases.timeline__year}`}>2024</h4>
-                                <span className={`${clases.timeline__company}`}>Instituto Profesional Duoc UC</span>
+                                <span className={`${clases.timeline__company}`}>Instituto Profesional UPTJAA</span>
                             </header>
 
                             <div className={`${clases.timeline__divide}`}></div>
 
                             <div className={`${clases.timeline__description}`}>
-                                <h3 className={`${clases.timeline__title}`}>Analista Programador</h3>
+                                <h3 className={`${clases.timeline__title}`}>Ingeniero Informático</h3>
                                 <p className={`${clases.timeline__text}`}>
                                     Estudiante de Ing. Informatica con solicitud de salida intermedia como Analista Programador.
                                 </p>
@@ -64,15 +64,15 @@ export const EstudiosPage = () => {
 
                         <article className={`${clases.skills__title}`}>
                             <h4 className={`${clases.skills__text}`}>JavaScript</h4>
-                            <span className={`${clases.skills__number}`}>40%</span>
+                            <span className={`${clases.skills__number}`}>90%</span>
                         </article>
                         <div className={`${clases.skills__progressbar}`}>
                             <div className={`${clases.skills__porcentaje} ${clases.skills__porcentajeP2}`}></div>
                         </div>
 
                         <article className={`${clases.skills__title}`}>
-                            <h4 className={`${clases.skills__text}`}>PL/SQL</h4>
-                            <span className={`${clases.skills__number}`}>80%</span>
+                            <h4 className={`${clases.skills__text}`}>Python</h4>
+                            <span className={`${clases.skills__number}`}>50%</span>
                         </article>
                         <div className={`${clases.skills__progressbar}`}>
                             <div className={`${clases.skills__porcentaje} ${clases.skills__porcentajeP3}`}></div>
@@ -111,12 +111,10 @@ export const EstudiosPage = () => {
                             <li className={`${clases.knowledges__option}`}>Programación</li>
                             <li className={`${clases.knowledges__option}`}>Desarrollo Web</li>
                             <li className={`${clases.knowledges__option}`}>Diseño Web</li>
-                            <li className={`${clases.knowledges__option}`}>Ingles intermedio</li>
-                            <li className={`${clases.knowledges__option}`}>Modelamiento de BDD</li>
+                            <li className={`${clases.knowledges__option}`}>MongoDB</li>
+                            <li className={`${clases.knowledges__option}`}>MySQL</li>
                             <li className={`${clases.knowledges__option}`}>GitHub</li>
-                            <li className={`${clases.knowledges__option}`}>Consultas de BDD</li>
-                            <li className={`${clases.knowledges__option}`}>Programación de BDD</li>
-                            <li className={`${clases.knowledges__option}`}>Excel</li>
+                            <li className={`${clases.knowledges__option}`}>Marketing Digital</li>
                         </ul>
                     </div>
                 </section>
@@ -138,8 +136,8 @@ export const EstudiosPage = () => {
                             <img src="/assets/img/LogoDuocUc.webp" className={`${clases.certificate__img}`}/>
                         </div>
                         <div className={`${clases.certificate__content}`}>
-                            <h4 className={`${clases.certificate__title}`}>Modulo DuocUC</h4>
-                            <span className={`${clases.certificate__id}`}>DuocUC</span>
+                            <h4 className={`${clases.certificate__title}`}>Modulo UPTJAA</h4>
+                            <span className={`${clases.certificate__id}`}>UPTJAA</span>
                             <span className={`${clases.certificate__fecha}`}>2 Julio 2024</span>
                         </div>
                     </article>
@@ -152,8 +150,8 @@ export const EstudiosPage = () => {
                             <img src="/assets/img/LogoDuocUc.webp" className={`${clases.certificate__img}`}/>
                         </div>
                         <div className={`${clases.certificate__content}`}>
-                            <h4 className={`${clases.certificate__title}`}>Practica Profesional DuocUC</h4>
-                            <span className={`${clases.certificate__id}`}>DuocUC</span>
+                            <h4 className={`${clases.certificate__title}`}>Practica Profesional UPTJAA</h4>
+                            <span className={`${clases.certificate__id}`}>UPTJAA</span>
                             <span className={`${clases.certificate__fecha}`}>2 Julio 2024</span>
                         </div>
                     </article>
