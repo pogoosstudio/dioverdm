@@ -30,7 +30,7 @@ export const EstudiosPage = () => {
                         <article className={`${clases.timelines__timeline}`}>
                             <header className={`${clases.timeline__header}`}>
                                 <h4 className={`${clases.timeline__year}`}>2024</h4>
-                                <span className={`${clases.timeline__company}`}>Instituto Profesional Duoc UC</span>
+                                <span className={`${clases.timeline__company}`}>Instituto Profesional UPTJAA</span>
                             </header>
 
                             <div className={`${clases.timeline__divide}`}></div>
