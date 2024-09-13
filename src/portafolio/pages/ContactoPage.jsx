@@ -27,17 +27,17 @@ export const ContactoPage = () => {
                 <section className={`${clases.contacto__info}`}>
                     <div className={`${clases.contacto__data}`}>
                         <FontAwesomeIcon icon={faLocationDot} className={`${clases.contacto__icon}`}/>
-                        <h2 className={`${clases.contacto__subtitle}`}>Curacaví</h2>
+                        <h2 className={`${clases.contacto__subtitle}`}>Barcelona</h2>
                     </div>
 
                     <div className={`${clases.contacto__data}`}>
                         <FontAwesomeIcon icon={faPhone} className={`${clases.contacto__icon}`}/>
-                        <h2 className={`${clases.contacto__subtitle}`}>+569 9818 0435</h2>
+                        <h2 className={`${clases.contacto__subtitle}`}>+58 424 843 3917</h2>
                     </div>
 
                     <div className={`${clases.contacto__data}`}>
                         <FontAwesomeIcon icon={faEnvelope} className={`${clases.contacto__icon}`}/>
-                        <h2 className={`${clases.contacto__subtitle}`}>nico.hernandezekko@gmail.com</h2>
+                        <h2 className={`${clases.contacto__subtitle}`}>hola@dioverdm.com</h2>
                     </div>
 
                     <div className={`${clases.contacto__data}`}>
@@ -103,7 +103,7 @@ export const ContactoPage = () => {
                         
                         <input type="submit" className={`${clases.form__button}`} value="Enviar Mensaje"/>
 
-                        <input type="hidden" name="_next" value="https://folionicolashernandez.netlify.app//"/>
+                        <input type="hidden" name="_next" value="https://dioverdm.com//"/>
                         <input type="hidden" name="_captcha" value={false}/>
                     </form>
                 </section>
