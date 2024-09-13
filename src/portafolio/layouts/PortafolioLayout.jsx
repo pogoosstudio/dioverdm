@@ -32,7 +32,7 @@ export const PortafolioLayout = ( {children} ) => {
                                 alt="Foto de perfil del Usuario"
                             />
                         </div>
-                        <h2 className={`${clases.userInfo__name}`}>Nicolás Hernández</h2>
+                        <h2 className={`${clases.userInfo__name}`}>Diover Rivero</h2>
                         <h4 className={`${clases.userInfo__job}`}>Desarrollador Web Front-End</h4>
                     </div>
 
@@ -46,7 +46,7 @@ export const PortafolioLayout = ( {children} ) => {
                         <ul className={`${clases.userLinks__social}`}>
                             <li className={`${clases.social__option}`}>
                                 <a 
-                                    href={`https://www.Instagram.com/SKT_Nicotina`}
+                                    href={`https://www.Instagram.com/dioverdm`}
                                     target="_blank"
                                     className={`${clases.social__link}`}    
                                 >
@@ -55,7 +55,7 @@ export const PortafolioLayout = ( {children} ) => {
                             </li>
                             <li className={`${clases.social__option}`}>
                                 <a 
-                                    href={`https://www.Linkedin.com/in/NicoDev1999`}
+                                    href={`https://www.Linkedin.com/in/dioverdm`}
                                     target="_blank"
                                     className={`${clases.social__link}`}    
                                 >
@@ -64,7 +64,7 @@ export const PortafolioLayout = ( {children} ) => {
                             </li>
                             <li className={`${clases.social__option}`}>
                                 <a 
-                                    href={`https://www.Github.com/NSHN1999`}
+                                    href={`https://www.Github.com/dioverdm`}
                                     target="_blank"
                                     className={`${clases.social__link}`}    
                                 >
@@ -84,7 +84,7 @@ export const PortafolioLayout = ( {children} ) => {
 
                     {/**Footer */}
                     <footer className={`${clases.userInfo__footer}`}>
-                        &copy; 2024 Nicolas Hernandez WEB
+                        &copy; 2024 Diover Rivero WEB
                     </footer>
 
                 </section>
