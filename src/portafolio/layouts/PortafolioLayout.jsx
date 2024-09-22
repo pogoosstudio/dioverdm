@@ -76,7 +76,7 @@ export const PortafolioLayout = ( {children} ) => {
 
                     {/**Boton descargar CV */}
                     <div 
-                        onClick={() => handleArchivoPdf("/assets/pdfs/CVNicolasHernandez.pdf")} 
+                        onClick={() => handleArchivoPdf("/assets/pdfs/CVDioverRivero.docx)} 
                         className={`${clases.userInfo__buttons}`}
                     >
                         <a className={`${clases.userInfo__btn}`}>Descargar CV</a>
