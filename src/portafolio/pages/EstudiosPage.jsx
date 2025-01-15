@@ -171,8 +171,8 @@ export const EstudiosPage = () => {
                             <span className={`${clases.certificate__fecha}`}>1 Febrero 2023</span>
                         </div>
                     </article>
-                </section>*/}
-            </div>
+                </section>
+            </div>*/}
         </motion.section >
     );
 };
