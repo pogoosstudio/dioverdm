@@ -123,7 +123,7 @@ export const EstudiosPage = () => {
                 
             </div>
 
-            <div className={`${clases.resumen__certificados}`}>
+            {/*<div className={`${clases.resumen__certificados}`}>
                 <header className={`${clases.resumen__subHeader}`}>
                     <h2 className={`${clases.resumen__subTitle}`}>Certificados</h2>
                 </header>
@@ -171,7 +171,7 @@ export const EstudiosPage = () => {
                             <span className={`${clases.certificate__fecha}`}>1 Febrero 2023</span>
                         </div>
                     </article>
-                </section>
+                </section>*/}
             </div>
         </motion.section >
     );
