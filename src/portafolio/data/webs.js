@@ -9,10 +9,10 @@ export const webs = [
         'id': 'web-gifsexpertapp',
         'categoria': ['Cursos', 'Todo'],
         'nombre': 'Gifs App',
-        'link': 'https://gif-expert-nicodev.netlify.app',
-        'descripcion': 'Aplicación para buscar y compartir gifs',
+        'link': 'https://www.pogoos.com/',
+        'descripcion': 'Sitio web para un bot de Discord',
     },
-    {
+    {/*
         'id': 'web-victorllaves',
         'categoria': ['Proyectos', 'Todo'],
         'nombre': 'VictorLlaves',
@@ -32,5 +32,5 @@ export const webs = [
         'nombre': 'Heroes App',
         'link': 'https://coruscating-froyo-19230a.netlify.app',
         'descripcion': 'Aplicación de busqueda de heroes.',
-    },
+    */}
 ];
