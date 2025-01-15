@@ -64,7 +64,7 @@ export const EstudiosPage = () => {
 
                         <article className={`${clases.skills__title}`}>
                             <h4 className={`${clases.skills__text}`}>Python</h4>
-                            <span className={`${clases.skills__number}`}>40%</span>
+                            <span className={`${clases.skills__number}`}>90%</span>
                         </article>
                         <div className={`${clases.skills__progressbar}`}>
                             <div className={`${clases.skills__porcentaje} ${clases.skills__porcentajeP2}`}></div>
@@ -72,6 +72,14 @@ export const EstudiosPage = () => {
 
                         <article className={`${clases.skills__title}`}>
                             <h4 className={`${clases.skills__text}`}>Javascript</h4>
+                            <span className={`${clases.skills__number}`}>90%</span>
+                        </article>
+                        <div className={`${clases.skills__progressbar}`}>
+                            <div className={`${clases.skills__porcentaje} ${clases.skills__porcentajeP3}`}></div>
+                        </div>
+                        
+                        <article className={`${clases.skills__title}`}>
+                            <h4 className={`${clases.skills__text}`}>Typescript</h4>
                             <span className={`${clases.skills__number}`}>90%</span>
                         </article>
                         <div className={`${clases.skills__progressbar}`}>
@@ -94,8 +102,16 @@ export const EstudiosPage = () => {
                         </div>
 
                         <article className={`${clases.skills__title}`}>
+                            <h4 className={`${clases.skills__text}`}>Next JS</h4>
+                            <span className={`${clases.skills__number}`}>90%</span>
+                        </article>
+                        <div className={`${clases.skills__progressbar}`}>
+                            <div className={`${clases.skills__porcentaje} ${clases.skills__porcentajeP3}`}></div>
+                        </div>
+
+                        <article className={`${clases.skills__title}`}>
                             <h4 className={`${clases.skills__text}`}>Tailwind</h4>
-                            <span className={`${clases.skills__number}`}>60%</span>
+                            <span className={`${clases.skills__number}`}>90%</span>
                         </article>
                         <div className={`${clases.skills__progressbar}`}>
                             <div className={`${clases.skills__porcentaje} ${clases.skills__porcentajeP5}`}></div>
@@ -114,6 +130,7 @@ export const EstudiosPage = () => {
                             <li className={`${clases.knowledges__option}`}>Ingles intermedio</li>
                             <li className={`${clases.knowledges__option}`}>Marketing Digital</li>
                             <li className={`${clases.knowledges__option}`}>GitHub</li>
+                            <li className={`${clases.knowledges__option}`}>NPM</li>
                             <li className={`${clases.knowledges__option}`}>MongoDB</li>
                             <li className={`${clases.knowledges__option}`}>MySQL</li>
                             <li className={`${clases.knowledges__option}`}>Excel</li>
